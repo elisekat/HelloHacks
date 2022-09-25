@@ -6,10 +6,12 @@ let assignments = data;
 export function createAssignments(input) {
     for (let i = 0; i < assignments.length; i++) {
         let assignment = assignments[i];
+        // checks if the input name === name of an assignment
         if (assignment.name === input.name) {
             return assignment;
         }
-        const newAssignment = {
+        // create a new assignment based on the inputted values
+        const newAssignment = {       
             AssignmentName: input.name,
             Code: input.code,
             Term: input.term,
@@ -30,16 +32,16 @@ export function updateAssignments(input) {
     if (index === -1) {
         return assignments;
     }
-    const assignment = assignments[index];
-
+    const assignment = assignments[index]; 
+    // if an input is changed (updating one of the fields of an assignment) it will change that field to the input value.
     if (input.difficulty) {
         assignment.posts.difficulty = Number(input.difficulty);
     }
     if (input.time_spent) {
-        assignment.posts.time = number(input.time_spent);
+        assignment.posts.time = number(input.time);
     }
-    if (input.Comment) {
-        assignment.posts.Comment = string(input.Comment);
+    if (input.comment) {
+        assignment.posts.comment = string(input.comment);
     }
 
     assignemnts[index] = assignment;
