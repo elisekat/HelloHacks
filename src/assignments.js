@@ -19,10 +19,10 @@ export function createAssignments(input) {
        return assignments;
        }}
 
-// add posts by updating assignments 
-//export function updateAssignments(input){
+//add posts by updating assignments 
+export function updateAssignments(input){
 
 
-//}
+}
 
 
