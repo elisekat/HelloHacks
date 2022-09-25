@@ -1,37 +1,37 @@
 [
     {
-        "Name": "PSET3",
-        "Code": "CPSC110",
-        "Term": "2022W",
-        "Posts": [
+        "name": "PSET3",
+        "code": "CPSC110",
+        "term": "2022W",
+        "posts": [
             {
-                "Difficulty": 2,
-                "Time": 60,
-                "Comment": "Pretty easy"
+                "difficulty": 2,
+                "time": 60,
+                "comment": "Pretty easy"
             }
         ]
     },
     {
-        "Name": "HWR",
-        "Code": "COMM190",
-        "Term": "2022S",
-        "Posts": [
+        "name": "HWR",
+        "code": "COMM190",
+        "term": "2022S",
+        "posts": [
             {
-                "Difficulty": 1,
-                "Time": 20,
-                "Comment": "Check your work"
+                "difficulty": 1,
+                "time": 20,
+                "comment": "Check your work"
             },
             {
-                "Difficulty": 4,
-                "Time": 120,
-                "Comment": "I kept getting syntax errors"
+                "difficulty": 4,
+                "time": 120,
+                "comment": "I kept getting syntax errors"
             }
         ]
     },
     {
-        "Name": "PSET5",
-        "Code": "CPSC 110",
-        "Term": "2022W",
-        "Posts": []
+        "name": "PSET5",
+        "code": "CPSC 110",
+        "term": "2022W",
+        "posts": []
     }
 ]
