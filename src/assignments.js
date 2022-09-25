@@ -20,12 +20,6 @@ export function createAssignments(input) {
     }
 }
 
-//add posts by updating assignments 
-export function updateAssignments(input) {
-
-
-}
-
 // UPDATE FUNCTION
 // Within the addReview page, these changes will be added to an assignment
 
