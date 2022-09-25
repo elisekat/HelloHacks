@@ -10,7 +10,7 @@
   <script type="module" src="src/handler.js"></script>
   <h1>Search</h1>
   <form id="createAssignmentsForm">
-    Assignment Name <input type="text" name="name"/><br />
+    Assignment Name <input type="text" name="name" /><br />
     Course Code:
     <input type="text" name="code" placeholder="example: CPSC110" /><br />
     Term: <input type="text" name="term" placeholder="example: 2022W" /><br />
@@ -18,6 +18,17 @@
   </form>
   <h2>Result</h2>
   <pre id="result"></pre>
+</body>
+
+<h1>Add Assignment Review</h1>
+<form id="createReviewsForm">
+  Difficulty from 1 to 5:<input type="number" name="Difficulty" placeholder="example: 1" /><br />
+  Number of minutes spent:<input type="number" name="Time Spent" placeholder="example:60" /><br />
+  Comment:<input type="text" name="Comment" placeholder="example:tough grading" /><br />
+  <input type="submit" value="Post" /><br />
+</form>
+<h2>Result</h2>
+<pre id="result"></pre>
 </body>
 
 </html>
