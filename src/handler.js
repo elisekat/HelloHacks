@@ -15,3 +15,4 @@ createAssignmentsForm.addEventListener("submit", function (event) {
     const result = createAssignments(formProps);
     showResult.innerHTML = JSON.stringify(result, null, 2);
 });
+
