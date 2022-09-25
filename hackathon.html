@@ -4,20 +4,29 @@
 <head>
   <title>HW Insider</title>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+  <div class="navbar">
+    <a href="hackathon.html">Search</a>
+    <a href="addReview.html">Add Review</a>
+    <a href="notfound.html">Not Found</a>
+    <a href="courselist.html">Course List</a>
+  </div>
   <script type="module" src="src/handler.js"></script>
   <h1>Search</h1>
   <form id="createAssignmentsForm">
-    Assignment Name <input type="text" name="name"/><br />
+    Assignment Name: <input type="text" name="name"/><br />
     Course Code:
     <input type="text" name="code" placeholder="example: CPSC110" /><br />
     Term: <input type="text" name="term" placeholder="example: 2022W" /><br />
     <input type="submit" value="Search" /><br />
   </form>
+  
   <h2>Result</h2>
   <pre id="result"></pre>
+
 </body>
 
 </html>
