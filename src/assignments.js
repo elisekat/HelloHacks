@@ -27,24 +27,37 @@ export function createAssignments(input) {
 
 export function updateAssignments(input) {
     const index = assignments.findIndex((assignment) => {
-        return assignment.name === input.na, e;
+        return assignment.name === input.name;
     });
+    console.log(index)
     if (index === -1) {
-        return assignments;
+        assignments.posts=[{
+            
+           "difficulty" : Number(input.difficulty),
+           "time" : Number(input.time),
+           "comment" : String(input.comment)
+        }]
+        return assignments
     }
     const assignment = assignments[index]; 
-    // if an input is changed (updating one of the fields of an assignment) it will change that field to the input value.
-    if (input.difficulty) {
-        assignment.posts.difficulty = Number(input.difficulty);
-    }
-    if (input.time_spent) {
-        assignment.posts.time = number(input.time);
-    }
-    if (input.comment) {
-        assignment.posts.comment = string(input.comment);
-    }
+    let post = {
 
-    assignemnts[index] = assignment;
+    }
+    console.log(input)
+    // if an input is changed (updating one of the fields of an assignment) it will change that field to the input value.
+    if (input.Difficulty) {
+        post["difficulty"] = input.Difficulty;
+    }
+    if (input.time) {
+        post["time"] = input.time;
+    }
+    if (input.commtent) {
+        post["comment"] = input.commtent;
+    }
+    assignment.posts.push(post)
+
+    assignments[index] = assignment;
+    console.log(assignments)
     return assignments;
 }
 
