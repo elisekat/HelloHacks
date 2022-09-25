@@ -1,0 +1,37 @@
+[
+    {
+        "Name": "PSET3",
+        "Code": "CPSC110",
+        "Term": "2022W",
+        "Posts": [
+            {
+                "Difficulty": 2,
+                "Time": 60,
+                "Comment": "Pretty easy"
+            }
+        ]
+    },
+    {
+        "Name": "HWR",
+        "Code": "COMM190",
+        "Term": "2022S",
+        "Posts": [
+            {
+                "Difficulty": 1,
+                "Time": 20,
+                "Comment": "Check your work"
+            },
+            {
+                "Difficulty": 4,
+                "Time": 120,
+                "Comment": "I kept getting syntax errors"
+            }
+        ]
+    },
+    {
+        "Name": "PSET5",
+        "Code": "CPSC 110",
+        "Term": "2022W",
+        "Posts": []
+    }
+]
