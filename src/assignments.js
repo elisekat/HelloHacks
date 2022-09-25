@@ -25,7 +25,7 @@ export function createAssignments(input) {
 
 export function updateAssignments(input) {
     const index = assignments.findIndex((assignment) => {
-        return assignment.name === input.na, e;
+        return assignment.name === input.name;
     });
     if (index === -1) {
         return assignments;
@@ -36,10 +36,10 @@ export function updateAssignments(input) {
         assignment.posts.difficulty = Number(input.difficulty);
     }
     if (input.time_spent) {
-        assignment.posts.time = number(input.time_spent);
+        assignment.posts.time = number(input.time);
     }
     if (input.Comment) {
-        assignment.posts.Comment = string(input.Comment);
+        assignment.posts.comment = string(input.comment);
     }
 
     assignemnts[index] = assignment;
