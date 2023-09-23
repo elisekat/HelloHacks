@@ -13,7 +13,7 @@ HWInsider allows you to review ahead of time how difficult and how long your ass
 - Badges based on user activity
 - Better filtering system
 - Improve backend & interface
-- Partner with universities to make accesible to students
+- Partner with universities to make accessible to students
 ## What We Learned
 - Collaborating using GitHub repositories, coding in JavaScript, html fundamentals, figma
 - Time management & task delegation 
